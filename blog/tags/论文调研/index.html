@@ -3,14 +3,14 @@
 <head>
   <meta charset="utf-8" />
   
-  <title>Blog: 2019 | Weijie Kong&#39;s Homepage</title>
+  <title>Tag: 论文调研 | Weijie Kong&#39;s Homepage</title>
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <meta name="description" content="欢迎来到孔伟杰的博客。 本人本科毕业于东北大学软件学院，目前在北大信工攻读硕士。 研究兴趣：计算机视觉|视频行为分析|行人检测。">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Weijie Kong's Homepage">
-<meta property="og:url" content="http://jacobkong.github.io/blog/2019/index.html">
+<meta property="og:url" content="http://jacobkong.github.io/blog/tags/论文调研/index.html">
 <meta property="og:site_name" content="Weijie Kong's Homepage">
 <meta property="og:description" content="欢迎来到孔伟杰的博客。 本人本科毕业于东北大学软件学院，目前在北大信工攻读硕士。 研究兴趣：计算机视觉|视频行为分析|行人检测。">
 <meta name="twitter:card" content="summary">
@@ -136,11 +136,13 @@
     <div class="col s12">
 
       
+        <h2 class="header color-featured">Tag: 论文调研</h2>
+      
 
       
         
 
-      <article id="post-论文笔记：GNN Survey" class="article article-type-post" itemscope itemprop="blogPost">
+      <article id="post-论文调研：ICCV论文总结" class="article article-type-post" itemscope itemprop="blogPost">
 
         <div class="article-inner">
           
@@ -150,7 +152,7 @@
               
   
     <h1 itemprop="name" class="header">
-      <a class="article-title " href="/blog/4197138744/">论文笔记：A Comprehensive Survey on Graph Neural Networks</a>
+      <a class="article-title " href="/blog/679115822/">论文调研：ICCV 2017论文调研</a>
     </h1>
   
 
@@ -159,36 +161,34 @@
 
             <div class="article-meta">
               <i class="fa fa-calendar"></i>
-              <time datetime="2019-05-18T14:51:24.000Z" itemprop="datePublished">May 18, 2019</time>
+              <time datetime="2017-11-25T07:51:24.000Z" itemprop="datePublished">Nov 25, 2017</time>
             </div>
           </header>
 
 
           <div class="article-entry " itemprop="articleBody">
             
-              <ul>
-<li><h3 id="GNN的发展"><a href="#GNN的发展" class="headerlink" title="GNN的发展"></a>GNN的发展</h3><ul>
-<li>Spectral graph theory: The ﬁrst prominent research on GCNs is presented in Bruna et al. (2013), which develops a variant of graph convolution based on spectral graph theory<ul>
-<li>Since that time, there have been increasing improvements, extensions, and approximations on spectral-based graph convolutional networks</li>
-</ul>
-</li>
-<li>Spatial-based graph convolutional networks: As spectral methods usually handle the whole graph simultaneously and are difﬁcult to parallel or scale to large graphs, spatial-based graph convolutional networks have rapidly developed recently<ul>
-<li>Together with sampling strategies, the computation can be performed in a batch of nodes instead of the whole graph [24], [27], which has the potential to improve the efﬁciency.</li>
-</ul>
-</li>
-<li>Others: In addition to graph convolutional networks, many alternative graph neural networks have been developed in the past few years.<ul>
-<li>These approaches include graph attention networks, graph autoencoders, graph generative networks, and graph spatial-temporal networks.</li>
+              <h2 id="Visual-object-tracking"><a href="#Visual-object-tracking" class="headerlink" title="Visual object tracking"></a>Visual object tracking</h2><ul>
+<li><h4 id="Learning-Policies-for-Adaptive-Tracking-with-Deep-Feature-Cascades"><a href="#Learning-Policies-for-Adaptive-Tracking-with-Deep-Feature-Cascades" class="headerlink" title="Learning Policies for Adaptive Tracking with Deep Feature Cascades"></a>Learning Policies for Adaptive Tracking with Deep Feature Cascades</h4><ul>
+<li>Our fundamental insight is to take an adaptive approach, where easy frames are processed with cheap features (such as pixel values), while challenging frames are processed with invariant but expensive deep features.</li>
+<li>Formulate the adaptive tracking problem as a decision-making process.</li>
+<li>Learn an agent to decide whether to locate objects with high conﬁdence on an early layer, or continue processing subsequent layers of a network.</li>
 </ul>
 </li>
 </ul>
-</li>
+<ul>
+<li>Signiﬁcantly reduces the feedforward cost.</li>
+<li>Train the agent ofﬂine in a reinforcement learning fashion.</li>
+<li>Obviously, the major computational burden comes from the forward pass through the entire network, and can be larger with deeper architectures.</li>
+<li>However, when the object is visually distinct or barely moves, early layers are in most scenarios sufﬁcient for precise localization - offering the potential for substantial computational savings.</li>
+<li>The agent learns to ﬁnd the target at each layer, and decides if it is conﬁdent enough to output and stop there.</li>
 </ul>
             
           </div>
 
           
             <p class="article-more-link">
-              <a href="/blog/4197138744/#more" class="waves-effect waves-light btn red lighten-2">
+              <a href="/blog/679115822/#more" class="waves-effect waves-light btn red lighten-2">
                 Read More
                 &nbsp;
                 <i class="fa fa-plus-circle"></i>
@@ -197,12 +197,12 @@
           
 
           <footer class="article-footer">
-            <a data-url="http://jacobkong.github.io/blog/4197138744/" data-id="cjvtc6o3c00000e0frsvw9k5x" class="article-share-link">Share</a>
+            <a data-url="http://jacobkong.github.io/blog/679115822/" data-id="cjrnebv6i004j1k2prljk76ur" class="article-share-link">Share</a>
             
-              <a href="http://jacobkong.github.io/blog/4197138744/#disqus_thread" class="article-comment-link">Comments</a>
+              <a href="http://jacobkong.github.io/blog/679115822/#disqus_thread" class="article-comment-link">Comments</a>
             
             
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/Graph-Neural-Networks/">Graph Neural Networks</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/图神经网络/">图神经网络</a></li></ul>
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/Deep-Learning/">Deep Learning</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/深度学习/">深度学习</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/论文调研/">论文调研</a></li></ul>
 
           </footer>
 
@@ -227,7 +227,6 @@
     </div>
   </div>
 </div>
-
 
   </div>
 

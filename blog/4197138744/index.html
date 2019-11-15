@@ -3,19 +3,29 @@
 <head>
   <meta charset="utf-8" />
   
-  <title>Blog: 2019 | Weijie Kong&#39;s Homepage</title>
+  <title>论文笔记：A Comprehensive Survey on Graph Neural Networks | Weijie Kong&#39;s Homepage</title>
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <meta name="description" content="欢迎来到孔伟杰的博客。 本人本科毕业于东北大学软件学院，目前在北大信工攻读硕士。 研究兴趣：计算机视觉|视频行为分析|行人检测。">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Weijie Kong's Homepage">
-<meta property="og:url" content="http://jacobkong.github.io/blog/2019/index.html">
+  <meta name="description" content="GNN的发展
+Spectral graph theory: The ﬁrst prominent research on GCNs is presented in Bruna et al. (2013), which develops a variant of graph convolution based on spectral graph theory
+Since that time, th">
+<meta property="og:type" content="article">
+<meta property="og:title" content="论文笔记：A Comprehensive Survey on Graph Neural Networks">
+<meta property="og:url" content="http://jacobkong.github.io/blog/4197138744/index.html">
 <meta property="og:site_name" content="Weijie Kong's Homepage">
-<meta property="og:description" content="欢迎来到孔伟杰的博客。 本人本科毕业于东北大学软件学院，目前在北大信工攻读硕士。 研究兴趣：计算机视觉|视频行为分析|行人检测。">
+<meta property="og:description" content="GNN的发展
+Spectral graph theory: The ﬁrst prominent research on GCNs is presented in Bruna et al. (2013), which develops a variant of graph convolution based on spectral graph theory
+Since that time, th">
+<meta property="og:image" content="http://ww3.sinaimg.cn/large/006tNc79gy1g35m24yir6j30dd08gdh4.jpg">
+<meta property="og:image" content="http://ww2.sinaimg.cn/large/006tNc79gy1g35m2qa2bwj30c90av408.jpg">
+<meta property="og:updated_time" content="2019-05-18T10:20:42.038Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Weijie Kong's Homepage">
-<meta name="twitter:description" content="欢迎来到孔伟杰的博客。 本人本科毕业于东北大学软件学院，目前在北大信工攻读硕士。 研究兴趣：计算机视觉|视频行为分析|行人检测。">
+<meta name="twitter:title" content="论文笔记：A Comprehensive Survey on Graph Neural Networks">
+<meta name="twitter:description" content="GNN的发展
+Spectral graph theory: The ﬁrst prominent research on GCNs is presented in Bruna et al. (2013), which develops a variant of graph convolution based on spectral graph theory
+Since that time, th">
+<meta name="twitter:image" content="http://ww3.sinaimg.cn/large/006tNc79gy1g35m24yir6j30dd08gdh4.jpg">
 
   
     <link rel="alternate" href="/atom.xml" title="Weijie Kong&#39;s Homepage" type="application/atom+xml" />
@@ -131,14 +141,11 @@
 
 
   <div id="main-container">
-    <div class="container">
+    
+<div class="container">
   <div class="row">
     <div class="col s12">
 
-      
-
-      
-        
 
       <article id="post-论文笔记：GNN Survey" class="article article-type-post" itemscope itemprop="blogPost">
 
@@ -149,8 +156,8 @@
           
               
   
-    <h1 itemprop="name" class="header">
-      <a class="article-title " href="/blog/4197138744/">论文笔记：A Comprehensive Survey on Graph Neural Networks</a>
+    <h1 class="article-title header" itemprop="name">
+      论文笔记：A Comprehensive Survey on Graph Neural Networks
     </h1>
   
 
@@ -183,17 +190,31 @@
 </ul>
 </li>
 </ul>
+<a id="more"></a>
+<ul>
+<li><h3 id="GNN-vs-Network-embedding"><a href="#GNN-vs-Network-embedding" class="headerlink" title="GNN vs Network embedding"></a>GNN vs Network embedding</h3><ul>
+<li>两者属于相交的关系，交集是Deep learning</li>
+<li>Network embedding aims to represent network vertices into a low-dimensional vector space, by preserving both network topology structure and node content information, so that any subsequent graph analytics tasks such as classiﬁcation, clustering, and recommendation can be easily performed by using simple off-the-shelf learning machine algorithm</li>
+<li>Many network embedding algorithms are typically unsupervised algorithms and they can be broadly classiﬁed into three groups [32]<ul>
+<li>matrix factorization [38], [39]</li>
+<li>random walks [40]</li>
+<li>deep learning approaches</li>
+</ul>
+</li>
+<li>The deep learning approaches for network embedding at the same time belong to graph neural networks, which include graph autoencoder-based algorithms (e.g., DNGR [41] and SDNE [42]) and graph convolution neural networks with unsupervised training(e.g., GraphSage [24]).</li>
+<li><img src="http://ww3.sinaimg.cn/large/006tNc79gy1g35m24yir6j30dd08gdh4.jpg" alt="image-20190518104429873"></li>
+</ul>
+</li>
+<li><p>GNN分类，5类</p>
+<ul>
+<li><img src="http://ww2.sinaimg.cn/large/006tNc79gy1g35m2qa2bwj30c90av408.jpg" alt="image-20190518104510256"></li>
+</ul>
+</li>
+</ul>
+
             
           </div>
 
-          
-            <p class="article-more-link">
-              <a href="/blog/4197138744/#more" class="waves-effect waves-light btn red lighten-2">
-                Read More
-                &nbsp;
-                <i class="fa fa-plus-circle"></i>
-              </a>
-            </p>
           
 
           <footer class="article-footer">
@@ -209,17 +230,39 @@
         </div>
 
         
+          
+<nav id="article-nav" class="white">
+  <div class="nav-wrapper">
+    <ul class="row">
+    
+
+    
+      <li class="col s6">
+        <a href="/blog/1352025799/" id="article-nav-older" class="article-nav-link-wrap grey-text text-darken-1 right-align truncate">
+          <span class="article-nav-title">论文笔记：行为预测(Action Prediction / Anticipation)相关论文略读笔记</span>
+          <i class="fa fa-arrow-right"></i>
+        </a>
+      </li>
+    
+
+    </ul>
+  </div>
+</nav>
+
+
+        
       </article>
 
 
       
 
+      <hr />
 
-
-
-      
-
-
+      <section id="comments">
+        <div id="disqus_thread">
+          <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+        </div>
+      </section>
       
 
 
@@ -227,6 +270,25 @@
     </div>
   </div>
 </div>
+
+
+  
+  <script>
+    var disqus_shortname = 'jacobkong';
+    
+    var disqus_url = 'http://jacobkong.github.io/blog/4197138744/';
+    
+    (function(){
+      var dsq = document.createElement('script');
+      dsq.type = 'text/javascript';
+      dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+  </script>
+
+  
+
 
 
   </div>
